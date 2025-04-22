@@ -115,7 +115,7 @@ class IMS:
             bill=len(os.listdir("bill"))
             self.lbl_sales.config(text=f"Total Sales\n[ {str(bill)} ]")
 
-            # time_=time.strftime("%I:%M:%S")
+            time_=time.strftime("%I:%M:%S")
             
             date_=time.strftime("%d-%m-%Y")
             self.lbl_clock.config(text=f"Welcome to Inventory Management System\t\t Date: {str(date_)}\t\t Time: {str(time_)}")
