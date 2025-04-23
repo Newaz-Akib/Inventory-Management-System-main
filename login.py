@@ -52,6 +52,7 @@ class LoginSystem:
                     messagebox.showinfo("Success", "Login Successful!", parent=self.root)
                     self.root.destroy()  # Close the login window
                     import dashboard  # Assuming your dashboard code is in dashboard.py
+
                 else:
                     messagebox.showerror("Error", "Invalid username or password!", parent=self.root)
         except sqlite3.Error as e:

@@ -14,7 +14,7 @@ class IMS:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1350x700+110+80")
-        self.root.title("Inventory Management System | Nishant Gupta")
+        self.root.title("Inventory Management System | Group C")
         self.root.resizable(False,False)
         self.root.config(bg="white")
 
